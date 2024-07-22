@@ -1,0 +1,125 @@
+body {
+  width: 500px;
+  height: 656px;
+}
+
+input {
+  padding-left: 10px;
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.password-input {
+  background: url("../image/eye.jpg") no-repeat;
+  background-size: 20px 20px;
+  background-position: right 5px center;
+  padding-left: 10px;
+}
+
+.button-Google-svg {
+  background: url("../image/goog.jpg") no-repeat;
+  background-size: 20px 20px;
+  background-position: left 68.5px center;
+  padding-left: 30px;
+}
+
+.button-Facebook-svg {
+  background: url("../image/fac.jpg") no-repeat;
+  background-size: 20px 20px;
+  background-position: left 63.5px center;
+  padding-left: 30px;
+}
+
+button {
+  border: 1px solid #ccc;
+}
+
+input,
+textarea {
+  border: 1px solid #ccc;
+}
+
+h1 {
+  text-align: center;
+  font-size: 16px;
+  background-size: 156px;
+}
+
+h1 span {
+  color: black;
+  padding-right: 5px;
+}
+
+h1 span:nth-child(3) {
+  color: #46a358;
+  padding-left: 5px;
+}
+
+p.centered-text {
+  margin: 0 auto;
+  width: 300px;
+  height: 16px;
+}
+
+form.form-horizontal {
+  text-align: center;
+}
+
+button.register {
+  width: 300px;
+  height: 45px;
+  background-color: #46a358;
+  margin: 0 auto;
+  display: block;
+}
+
+button.register span {
+  color: white;
+}
+
+div.divider {
+  display: flex;
+  align-items: center;
+}
+
+div.divider div {
+  flex-grow: 1;
+  border-top: 1px solid;
+  color: #ccc;
+}
+
+div.divider p {
+  margin: 0;
+}
+
+div.divider div:first-child {
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+div.divider div:last-child {
+  margin-right: 100px;
+  margin-left: 10px;
+}
+
+button.google {
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  display: block;
+  background-color: white;
+}
+
+button.facebook {
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  display: block;
+  background-color: white;
+}
+
+div.footer {
+  border-top: 10px solid green;
+  width: 500px;
+}
