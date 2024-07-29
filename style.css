@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+.header,
+.section {
+  font-size: 0;
+}
+.header {
+  width: 1200px;
+  height: 53px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bar {
+  font-size: 16px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first {
+  width: 150px;
+  height: 34.3px;
+  color: #4caf50;
+}
+
+.icon {
+  width: 34.3px;
+  height: 34.3px;
+  margin-right: 3px;
+}
+
+.middle {
+  width: 351px;
+  height: 45px;
+  text-align: center;
+}
+
+.last {
+  width: 100px;
+  height: 35px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.loginbutton {
+  background-color: #4caf50;
+  height: 35px;
+  width: 100px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+hr {
+  width: 1184px;
+  height: 0.3px;
+  background-color: #46a35880;
+  margin-left: 8px;
+  padding: 0;
+}
+
+.login-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.content-section {
+  margin-left: 8px;
+  width: 1200px;
+  height: 450px;
+  display: flex; /* а це можна було якось через інлайн блок?*/
+}
+
+.text-part {
+  width: calc(100% - 507px);
+  height: 450px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text1 {
+  width: 205px;
+  height: 16px;
+  margin-top: 68px;
+  margin-left: 43px;
+}
+
+.text2 {
+  width: 530px;
+  height: 140px;
+  margin-top: 91px;
+  margin-left: 40px;
+}
+
+.text3 {
+  width: 557px;
+  height: 45px;
+  margin-top: 20px;
+  margin-left: 43px;
+}
+
+.shopnow {
+  width: 140px;
+  height: 60px;
+  margin-left: 41px;
+  background-color: #4caf50;
+  color: floralwhite;
+  align-self: flex-start;
+}
