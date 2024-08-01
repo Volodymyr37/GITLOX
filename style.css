@@ -2,12 +2,19 @@
   box-sizing: border-box;
 }
 
-.header,
-.section {
-  font-size: 0;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
+
+.header,
+.content-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .header {
-  width: 1200px;
   height: 53px;
   display: flex;
   justify-content: space-between;
@@ -16,16 +23,14 @@
 
 .bar {
   font-size: 16px;
-  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .first {
   width: 150px;
-  height: 34.3px;
   color: #4caf50;
+  margin-left: -6px;
 }
 
 .icon {
@@ -35,14 +40,11 @@
 }
 
 .middle {
-  width: 351px;
-  height: 45px;
   text-align: center;
 }
 
 .last {
   width: 100px;
-  height: 35px;
 }
 
 nav {
@@ -64,6 +66,7 @@ nav a {
   background-color: #4caf50;
   height: 35px;
   width: 100px;
+  border-radius: 5px;
   color: white;
   border: none;
   cursor: pointer;
@@ -76,33 +79,26 @@ nav a {
 }
 
 hr {
-  width: 1184px;
+  width: 100%;
+  max-width: 1200px;
   height: 0.3px;
   background-color: #46a35880;
-  margin-left: 8px;
-  padding: 0;
 }
 
-.login-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
-  vertical-align: middle;
-}
 .wordcolorgreen {
   color: #4caf50;
 }
 
 .content-section {
-  margin-left: 8px;
-  width: 1200px;
-  height: 450px;
-  display: flex; /* а це можна було якось через інлайн блок?*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f5f5f580;
 }
 
 .text-part {
   width: calc(100% - 507px);
-  height: 450px;
   padding: 20px;
   box-sizing: border-box;
   display: flex;
@@ -110,33 +106,13 @@ hr {
   justify-content: center;
 }
 
-.text1 {
-  width: 205px;
-  height: 16px;
-  margin-top: 68px;
-  margin-left: 43px;
-}
-
-.text2 {
-  width: 530px;
-  height: 140px;
-  margin-top: 91px;
-  margin-left: 40px;
-}
-
-.text3 {
-  width: 557px;
-  height: 45px;
-  margin-top: 20px;
-  margin-left: 43px;
-}
-
 .shopnow {
   width: 140px;
   height: 40px;
-  margin-bottom: 125px;
-  margin-left: 41px;
+  margin-top: 20px;
   background-color: #4caf50;
   color: floralwhite;
   border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
